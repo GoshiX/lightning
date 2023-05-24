@@ -1,0 +1,1 @@
+Everything compiles in arduino IDE under esp8266 or esp32 (ex:nodeMCUv3)
