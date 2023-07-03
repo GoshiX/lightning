@@ -22,3 +22,11 @@ void one_color_all(int cred, int cgrn, int cblu) {
     leds[i].b = cblu;
   }
 }
+
+int cton(char sim) {
+  if ((sim >= '0') && (sim <= '9')) {
+    return sim - '0';
+  } else {
+    return 10 + sim - 'A';
+  }
+}
